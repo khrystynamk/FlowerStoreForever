@@ -2,8 +2,6 @@ package com.lab.flowerstore.user;
 
 import java.time.LocalDate;
 import java.time.Period;
-
-// import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 import jakarta.persistence.Transient;
@@ -34,7 +32,7 @@ public class AppUser implements User {
         return period.getYears();
     }
 
-    public void update(String status) {
-        this.status = "Updated Status for " + status;
+    public void update(String newStatus) {
+        this.status = "Updated Status for " + newStatus;
     }
 }

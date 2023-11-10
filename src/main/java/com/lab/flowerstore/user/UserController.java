@@ -37,5 +37,8 @@ public class UserController {
     }
 }
 
-    // To add to a table: echo '{"id": "1", "email": "wow@wow.com", "dateOfBirth": "27.03.1993"}' | curl -H "Content-Type: application/json" -d @- http://localhost:8080/api/user/add
+    // To add to a table: echo '{"id": "1", 
+    // "email": "wow@wow.com", "dateOfBirth": "27.03.1993"}'
+    //  | curl -H "Content-Type: application/json"
+    // -d @- http://localhost:8080/api/user/add
 
